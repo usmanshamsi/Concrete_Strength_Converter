@@ -29,6 +29,30 @@
     End Function
 
 
+    Function toCube(cylinderStrength As Double) As Double
+
+
+        If cylinderStrength < cylinder_strengths(0) Then
+            Return conversion_factors(0)
+        ElseIf cylinderStrength >= cylinder_strengths(9) Then
+            Return conversion_factors(9)
+        Else
+            For i As Integer = 0 To 8
+                If cylinderStrength >= cylinder_strengths(i) And cylinderStrength < cylinder_strengths(i + 1) Then
+
+                    Return interpolate_y(cylinder_strengths(i), conversion_factors(i), _
+                                         cylinder_strengths(i + 1), conversion_factors(i + 1), _
+                                         cylinderStrength)
+
+                End If
+            Next
+        End If
+
+        Return -1.0
+
+    End Function
+
+
     Function interpolate_y(x1 As Double, y1 As Double, x2 As Double, y2 As Double, x As Double) As Double
         Return y1 + (y2 - y1) / (x2 - x1) * (x - x1)
     End Function

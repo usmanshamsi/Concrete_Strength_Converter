@@ -110,6 +110,7 @@ Partial Class Form1
         '
         'outputCubeStrength
         '
+        Me.outputCubeStrength.BackColor = System.Drawing.Color.White
         Me.outputCubeStrength.Location = New System.Drawing.Point(186, 100)
         Me.outputCubeStrength.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.outputCubeStrength.Name = "outputCubeStrength"
@@ -211,6 +212,7 @@ Partial Class Form1
         '
         'outputCylinderStrength
         '
+        Me.outputCylinderStrength.BackColor = System.Drawing.Color.White
         Me.outputCylinderStrength.Location = New System.Drawing.Point(186, 100)
         Me.outputCylinderStrength.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.outputCylinderStrength.Name = "outputCylinderStrength"
