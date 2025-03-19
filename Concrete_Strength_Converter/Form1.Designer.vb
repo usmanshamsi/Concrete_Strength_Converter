@@ -56,9 +56,9 @@ Partial Class Form1
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Location = New System.Drawing.Point(15, 15)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4)
         Me.GroupBox1.Size = New System.Drawing.Size(444, 143)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
@@ -77,7 +77,7 @@ Partial Class Form1
         'bttnConvertToCube
         '
         Me.bttnConvertToCube.Location = New System.Drawing.Point(11, 56)
-        Me.bttnConvertToCube.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.bttnConvertToCube.Margin = New System.Windows.Forms.Padding(4)
         Me.bttnConvertToCube.Name = "bttnConvertToCube"
         Me.bttnConvertToCube.Size = New System.Drawing.Size(200, 26)
         Me.bttnConvertToCube.TabIndex = 4
@@ -88,7 +88,7 @@ Partial Class Form1
         '
         Me.radUnitToCube_MPA.AutoSize = True
         Me.radUnitToCube_MPA.Location = New System.Drawing.Point(361, 21)
-        Me.radUnitToCube_MPA.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.radUnitToCube_MPA.Margin = New System.Windows.Forms.Padding(4)
         Me.radUnitToCube_MPA.Name = "radUnitToCube_MPA"
         Me.radUnitToCube_MPA.Size = New System.Drawing.Size(51, 19)
         Me.radUnitToCube_MPA.TabIndex = 3
@@ -100,7 +100,7 @@ Partial Class Form1
         Me.radUnitToCube_PSI.AutoSize = True
         Me.radUnitToCube_PSI.Checked = True
         Me.radUnitToCube_PSI.Location = New System.Drawing.Point(309, 21)
-        Me.radUnitToCube_PSI.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.radUnitToCube_PSI.Margin = New System.Windows.Forms.Padding(4)
         Me.radUnitToCube_PSI.Name = "radUnitToCube_PSI"
         Me.radUnitToCube_PSI.Size = New System.Drawing.Size(42, 19)
         Me.radUnitToCube_PSI.TabIndex = 2
@@ -112,7 +112,7 @@ Partial Class Form1
         '
         Me.outputCubeStrength.BackColor = System.Drawing.Color.White
         Me.outputCubeStrength.Location = New System.Drawing.Point(186, 100)
-        Me.outputCubeStrength.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.outputCubeStrength.Margin = New System.Windows.Forms.Padding(4)
         Me.outputCubeStrength.Name = "outputCubeStrength"
         Me.outputCubeStrength.ReadOnly = True
         Me.outputCubeStrength.Size = New System.Drawing.Size(116, 21)
@@ -122,7 +122,7 @@ Partial Class Form1
         'inputCylinderStrength
         '
         Me.inputCylinderStrength.Location = New System.Drawing.Point(186, 20)
-        Me.inputCylinderStrength.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.inputCylinderStrength.Margin = New System.Windows.Forms.Padding(4)
         Me.inputCylinderStrength.Name = "inputCylinderStrength"
         Me.inputCylinderStrength.Size = New System.Drawing.Size(116, 21)
         Me.inputCylinderStrength.TabIndex = 1
@@ -158,9 +158,9 @@ Partial Class Form1
         Me.GroupBox2.Controls.Add(Me.Label4)
         Me.GroupBox2.Controls.Add(Me.Label5)
         Me.GroupBox2.Location = New System.Drawing.Point(15, 175)
-        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(4)
         Me.GroupBox2.Size = New System.Drawing.Size(444, 143)
         Me.GroupBox2.TabIndex = 1
         Me.GroupBox2.TabStop = False
@@ -179,7 +179,7 @@ Partial Class Form1
         'bttnConvertToCylinder
         '
         Me.bttnConvertToCylinder.Location = New System.Drawing.Point(11, 56)
-        Me.bttnConvertToCylinder.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.bttnConvertToCylinder.Margin = New System.Windows.Forms.Padding(4)
         Me.bttnConvertToCylinder.Name = "bttnConvertToCylinder"
         Me.bttnConvertToCylinder.Size = New System.Drawing.Size(200, 26)
         Me.bttnConvertToCylinder.TabIndex = 4
@@ -190,7 +190,7 @@ Partial Class Form1
         '
         Me.radUnitToCylinder_MPA.AutoSize = True
         Me.radUnitToCylinder_MPA.Location = New System.Drawing.Point(361, 21)
-        Me.radUnitToCylinder_MPA.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.radUnitToCylinder_MPA.Margin = New System.Windows.Forms.Padding(4)
         Me.radUnitToCylinder_MPA.Name = "radUnitToCylinder_MPA"
         Me.radUnitToCylinder_MPA.Size = New System.Drawing.Size(51, 19)
         Me.radUnitToCylinder_MPA.TabIndex = 3
@@ -202,7 +202,7 @@ Partial Class Form1
         Me.radUnitToCylinder_PSI.AutoSize = True
         Me.radUnitToCylinder_PSI.Checked = True
         Me.radUnitToCylinder_PSI.Location = New System.Drawing.Point(309, 21)
-        Me.radUnitToCylinder_PSI.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.radUnitToCylinder_PSI.Margin = New System.Windows.Forms.Padding(4)
         Me.radUnitToCylinder_PSI.Name = "radUnitToCylinder_PSI"
         Me.radUnitToCylinder_PSI.Size = New System.Drawing.Size(42, 19)
         Me.radUnitToCylinder_PSI.TabIndex = 2
@@ -214,7 +214,7 @@ Partial Class Form1
         '
         Me.outputCylinderStrength.BackColor = System.Drawing.Color.White
         Me.outputCylinderStrength.Location = New System.Drawing.Point(186, 100)
-        Me.outputCylinderStrength.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.outputCylinderStrength.Margin = New System.Windows.Forms.Padding(4)
         Me.outputCylinderStrength.Name = "outputCylinderStrength"
         Me.outputCylinderStrength.ReadOnly = True
         Me.outputCylinderStrength.Size = New System.Drawing.Size(116, 21)
@@ -224,7 +224,7 @@ Partial Class Form1
         'inputCubeStrength
         '
         Me.inputCubeStrength.Location = New System.Drawing.Point(186, 20)
-        Me.inputCubeStrength.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.inputCubeStrength.Margin = New System.Windows.Forms.Padding(4)
         Me.inputCubeStrength.Name = "inputCubeStrength"
         Me.inputCubeStrength.Size = New System.Drawing.Size(116, 21)
         Me.inputCubeStrength.TabIndex = 1
@@ -259,7 +259,7 @@ Partial Class Form1
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.MaximizeBox = False
         Me.Name = "Form1"
         Me.Text = "Concrete Strength Converter"

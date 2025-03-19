@@ -7,3 +7,7 @@ C:\Users\usman\Documents\GitHub\Concrete_Strength_Converter\Concrete_Strength_Co
 C:\Users\usman\Documents\GitHub\Concrete_Strength_Converter\Concrete_Strength_Converter\obj\x86\Debug\Concrete_Strength_Converter.exe
 C:\Users\usman\Documents\GitHub\Concrete_Strength_Converter\Concrete_Strength_Converter\obj\x86\Debug\Concrete_Strength_Converter.xml
 C:\Users\usman\Documents\GitHub\Concrete_Strength_Converter\Concrete_Strength_Converter\obj\x86\Debug\Concrete_Strength_Converter.pdb
+C:\Users\usman\Documents\GitHub\Concrete_Strength_Converter\Concrete_Strength_Converter\bin\Debug\Concrete_Strength_Converter.exe.manifest
+C:\Users\usman\Documents\GitHub\Concrete_Strength_Converter\Concrete_Strength_Converter\bin\Debug\Concrete_Strength_Converter.application
+C:\Users\usman\Documents\GitHub\Concrete_Strength_Converter\Concrete_Strength_Converter\obj\x86\Debug\Concrete_Strength_Converter.exe.manifest
+C:\Users\usman\Documents\GitHub\Concrete_Strength_Converter\Concrete_Strength_Converter\obj\x86\Debug\Concrete_Strength_Converter.application
