@@ -5,6 +5,8 @@ Converts strength of concrete from cylinder to cube and vice versa
 ## Screenshot
 
 ![Screenshot](interface.png "Screenshot")
+<br>
+![Screenshot](about.png "Screenshot")
 
 <br><br>
 ## Reference(s)

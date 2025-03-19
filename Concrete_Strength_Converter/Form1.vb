@@ -87,7 +87,15 @@
 
     End Sub
 
-    Private Sub Label3_Click(sender As System.Object, e As System.EventArgs) Handles Label3.Click
+    Private Sub Label3_Click(sender As System.Object, e As System.EventArgs)
 
+    End Sub
+
+    Private Sub Button1_Click(sender As System.Object, e As System.EventArgs) Handles bttnAbout.Click
+        frmAbout.ShowDialog()
+    End Sub
+
+    Private Sub bttnClose_Click(sender As System.Object, e As System.EventArgs) Handles bttnClose.Click
+        Me.Close()
     End Sub
 End Class

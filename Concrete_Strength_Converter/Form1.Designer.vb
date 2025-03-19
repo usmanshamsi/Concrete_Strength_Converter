@@ -41,7 +41,8 @@ Partial Class Form1
         Me.inputCubeStrength = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
+        Me.bttnAbout = New System.Windows.Forms.Button()
+        Me.bttnClose = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
@@ -250,23 +251,31 @@ Partial Class Form1
         Me.Label5.TabIndex = 0
         Me.Label5.Text = "Specified Cube Strength"
         '
-        'Label3
+        'bttnAbout
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(15, 326)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(348, 90)
-        Me.Label3.TabIndex = 2
-        Me.Label3.Text = "Reference(s):" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "[1] - Structural Concrete - Theory and Design - Sixth Edition" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "by " & _
-    "M. Nadim Hassoun / Akthem Al-Manaseer" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Source code:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "https://github.com/usmans" & _
-    "hamsi/Concrete_Strength_Converter"
+        Me.bttnAbout.Location = New System.Drawing.Point(15, 325)
+        Me.bttnAbout.Name = "bttnAbout"
+        Me.bttnAbout.Size = New System.Drawing.Size(84, 26)
+        Me.bttnAbout.TabIndex = 3
+        Me.bttnAbout.Text = "About ..."
+        Me.bttnAbout.UseVisualStyleBackColor = True
+        '
+        'bttnClose
+        '
+        Me.bttnClose.Location = New System.Drawing.Point(375, 325)
+        Me.bttnClose.Name = "bttnClose"
+        Me.bttnClose.Size = New System.Drawing.Size(84, 26)
+        Me.bttnClose.TabIndex = 3
+        Me.bttnClose.Text = "Close"
+        Me.bttnClose.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(476, 439)
-        Me.Controls.Add(Me.Label3)
+        Me.ClientSize = New System.Drawing.Size(476, 363)
+        Me.Controls.Add(Me.bttnClose)
+        Me.Controls.Add(Me.bttnAbout)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -281,7 +290,6 @@ Partial Class Form1
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
@@ -302,6 +310,7 @@ Partial Class Form1
     Friend WithEvents inputCubeStrength As System.Windows.Forms.TextBox
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents Label5 As System.Windows.Forms.Label
-    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents bttnAbout As System.Windows.Forms.Button
+    Friend WithEvents bttnClose As System.Windows.Forms.Button
 
 End Class
