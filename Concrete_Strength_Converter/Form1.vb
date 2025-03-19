@@ -64,7 +64,9 @@
 
 
         ' CODE TO CONVERT (PSI UNITS)
-        Dim conversion_factor As Double = 0.9
+        Dim conversion_factor As Double = toCylinder(cube_strength_psi)
+
+        ' MsgBox(conversion_factor.ToString, , "conversion factor")
 
 
         converted_cylinder_strength *= conversion_factor
