@@ -86,4 +86,8 @@
         outputCylinderStrength.Text = converted_cylinder_strength.ToString("0.00")
 
     End Sub
+
+    Private Sub Label3_Click(sender As System.Object, e As System.EventArgs) Handles Label3.Click
+
+    End Sub
 End Class
